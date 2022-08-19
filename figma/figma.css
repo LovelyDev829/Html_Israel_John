@@ -1,0 +1,129 @@
+.footer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height: auto;
+    padding: 0;
+    
+
+}
+.footercenter{
+    
+    max-width: 968px;
+    height: 369.37px;
+    left: 108.73px;
+    top: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+.content{
+    
+    height: 369.37px;
+    position: relative;
+    top: -120px;
+    
+    
+}
+.picture{
+   
+    max-width: 100%;
+    
+}
+.first{
+    
+    margin-left: 108.73px;
+    margin-right: 147px;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+}
+.call{
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 220px;
+    height: 42px;
+    display: flex;
+    width: 100%;
+    
+    
+}
+.callimg{
+    width: 30%;
+
+}
+.callletter{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    justify-content: start;
+    flex-direction: row;
+    display: flex;
+}
+.second{
+    margin-left: 108.73px;
+    margin-right: 124px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.uselinks{
+    margin: 0;
+    max-width: 185px;
+}
+.uselinks li{
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 21px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 3px;
+}
+.smartwinner{
+    max-width:250px ;
+    height: 203px;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.payment{
+    max-width: 146px;
+    height: 130px;
+    margin: 0px;
+    padding: 0px;
+}
+.payment li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 0;
+    margin-left: 0px;
+}
+.security{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 140px;
+    margin-top: 20px;
+}
+.securityimg{
+    max-width: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+@media screen and (max-width:900px) {
+    .uselinks{
+        max-width: 500px;
+    }
+}
